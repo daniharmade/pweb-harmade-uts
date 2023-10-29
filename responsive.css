@@ -1,0 +1,40 @@
+.menu-icon {
+  /* background-color: #c4302b; */
+  font-size: 28px;
+  align-items: center;
+  color: #f9b600;
+  margin-left: 10px;
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    flex-wrap: wrap;
+  }
+  nav ul {
+    /* display: none; */
+    flex-direction: column;
+    width: 100%;
+  }
+
+  nav ul.hidden {
+    display: none;
+  }
+
+  .menu-icon {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
+}
