@@ -122,9 +122,10 @@ nav ul li a:hover {
 
 .detail button {
   background-color: #f9b600;
-  padding: 10px;
+  padding: 10px 20px 10px 20px;
+  /* padding-left: 20px; */
   border-radius: 30px;
-  margin-top: 30px;
+  margin-top: 20px;
   border: 1px solid #f9b600;
   font-size: 15px;
   transition: all 0.5s ease;
@@ -141,6 +142,55 @@ nav ul li a:hover {
   font-weight: bold;
   font-weight: 1000;
   color: #2e304b;
+}
+
+.main-container {
+  width: 100%;
+  padding: 0 100px;
+  box-sizing: border-box;
+}
+
+.judul-learning {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.judul-learning h1 {
+  font-size: 25px;
+}
+
+.judul-learning h3 {
+  font-size: 15px;
+  color: #afb1d1;
+}
+
+.learning {
+  /* padding: 3rem 2rem; */
+  text-align: center;
+}
+
+.learning h4 {
+  margin-bottom: 1.5rem;
+  /* font-weight: 500; */
+  font-size: 1.05rem;
+  color: #afb1d1;
+}
+
+.learning p {
+  color: #afb1d1;
+  color: #ccc;
+}
+
+.learning-icon {
+  background-color: #1b1c2d;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.learning-icon svg {
+  fill: #f9b600;
 }
 
 @keyframes typing {
@@ -509,11 +559,19 @@ span {
   width: 65%;
   height: 30px;
   margin-top: 2px;
-  background-color: #f9b600;
+  background-color: #afb1d1;
   border-radius: 5px;
-  border: 1px solid #f9b600;
+  border: 1px solid #afb1d1;
   font-weight: bold;
   font-size: 15px;
+  color: #2e304b;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.kirim button:hover {
+  background-color: #f9b600;
+  border: 1px solid #f9b600;
 }
 
 /* footer */
@@ -542,7 +600,7 @@ ul {
 
 .footer-col h4 {
   font-size: 18px;
-  color: #ffffff;
+  color: #f9b600;
   text-transform: capitalize;
   margin-bottom: 35px;
   font-weight: 500;
@@ -567,7 +625,6 @@ ul {
 .footer-col ul li a {
   font-size: 16px;
   text-transform: capitalize;
-  color: #ffffff;
   text-decoration: none;
   font-weight: 300;
   color: #afb1d1;
@@ -576,7 +633,7 @@ ul {
 }
 
 .footer-col ul li a:hover {
-  color: #ffffff;
+  color: #f9b600;
   padding-left: 8px;
 }
 
@@ -598,4 +655,8 @@ ul {
 .footer-col .social-links a:hover {
   transform: translate(0, -8px);
   box-shadow: 0 20px 8px rgba(0, 0, 0, 0.7);
+}
+
+.typing-text {
+  color: #afb1d1;
 }

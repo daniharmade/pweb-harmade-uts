@@ -13,6 +13,9 @@
       href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
     />
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- TYPED JS -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <!-- <link href="/dist/output.css" rel="stylesheet" /> -->
   </head>
   <body>
@@ -30,6 +33,7 @@
         <ul id="menu-list" class="hidden">
           <li><a href="#detail">Home</a></li>
           <li><a href="#profile">Profile</a></li>
+          <li><a href="#learn">Learn</a></li>
           <li><a href="#gallery-container">Gallery</a></li>
           <li><a href="#aktifitas">Activities</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -42,7 +46,7 @@
       <div class="detail">
         <h3>Hello, My Name Is</h3>
         <h1>Dani Harmade</h1>
-        <h2>Networking & Web Developer Enthusiast</h2>
+        <h2>Interested <span class="typing-text"></span></h2>
         <p>
           I am currently a student at one of the State Universities in Riau with
           an interest in
@@ -90,7 +94,7 @@
             experiences that you share.
           </p>
 
-          <div class="social">
+          <div class="social" id="learn">
             <a href="https://github.com/daniharmade" target="_blank"
               ><i class="bx bxl-github"></i
             ></a>
@@ -109,8 +113,84 @@
         </div>
       </div>
     </section>
-    <div class="gap-gallery" id="gallery-container"></div>
     <!-- PROFILE END -->
+
+    <!-- LEARN -->
+    <section id="learning">
+      <div class="main-container">
+        <div class="judul-learning">
+          <h1><span>LEARNING</span></h1>
+          <h3>In the process of learning</h3>
+        </div>
+
+        <div class="grid-3">
+          <!-- LEARNING 1 -->
+          <div class="learning">
+            <div class="learning-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M24 5c-3.923 3.265-5.623 4.716-7.15 4.716-2.44 0-3.681-3.675-4.85-7.716-1.165 4.028-2.41 7.715-4.853 7.715-1.513 0-3.168-1.404-7.147-4.715 3.321 7.018 3 14.292 3 17h18c0-1.718-.478-9.65 3-17zm-16.853 6.715c2.295 0 3.787-1.64 4.853-3.761 1.064 2.122 2.556 3.762 4.85 3.762 1.121 0 2.188-.43 3.126-1.042-.432 1.907-.68 3.72-.82 5.326h-14.322c-.138-1.617-.38-3.423-.808-5.324.927.607 2 1.039 3.121 1.039zm-2.14 8.285c-.003-.593-.016-1.267-.047-2h14.065c-.032.745-.046 1.422-.047 2h-13.971z"
+                />
+              </svg>
+            </div>
+            <h4>UI/UX Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Assumenda, illum!
+            </p>
+          </div>
+
+          <!-- LEARNING 2 -->
+          <div class="learning">
+            <div class="learning-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M14 2v2h-4v-2h4zm2-2h-8v6h8v-6zm-12 20v2h-2v-2h2zm2-2h-6v6h6v-6zm16 2v2h-2v-2h2zm2-2h-6v6h6v-6zm-11-7v-3h-2v3h-9v5h2v-3h7v3h2v-3h7v3h2v-5h-9zm0 9v2h-2v-2h2zm2-2h-6v6h6v-6z"
+                />
+              </svg>
+            </div>
+            <h4>Networking</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Assumenda, illum!
+            </p>
+          </div>
+          <!-- LEARN END -->
+
+          <!-- LEARNING 3 -->
+          <div class="learning">
+            <div class="learning-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1 16l-6-2.935v-2.131l6-2.934v2.199l-3.64 1.801 3.64 1.796v2.204zm2-8v2.199l3.64 1.801-3.64 1.796v2.204l6-2.935v-2.131l-6-2.934z"
+                />
+              </svg>
+            </div>
+            <h4>Web Dev</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Assumenda, illum!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="gap-gallery" id="gallery-container"></div>
 
     <!-- GALLERY -->
     <div class="gallery-container">
@@ -120,13 +200,13 @@
         </div>
 
         <div class="gallery">
-          <img src="assets/foto1.jpg" class="jumbo" />
+          <img src="assets/foto1test.png" class="jumbo" />
           <div class="thumbnail">
-            <img src="assets/foto1.jpg" class="thumb" />
-            <img src="assets/foto2.jpeg" class="thumb" />
+            <img src="assets/foto1test.png" class="thumb" />
+            <img src="assets/foto2test.png" class="thumb" />
             <img src="assets/foto3.jpeg" class="thumb" />
             <img src="assets/foto4.jpeg" class="thumb" />
-            <img src="assets/foto5.jpeg" class="thumb" />
+            <img src="assets/foto5test.png" class="thumb" />
             <img src="assets/foto6.jpeg" class="thumb" />
           </div>
         </div>
@@ -347,10 +427,7 @@
               </a>
             </div>
 
-            <p>
-              Praktek Kerja Lapangan di PT. Telkom Indonesia pada bulan Juli
-              2021 - Desember 2021
-            </p>
+            <p>Buka Bersama Sistem Informasi (BUMASI)</p>
           </div>
         </div>
       </div>
@@ -405,9 +482,9 @@
           <div class="footer-col">
             <h4>Category</h4>
             <ul>
-              <li><a href="#">Programming</a></li>
-              <li><a href="#">Networking</a></li>
-              <li><a href="#">Technology</a></li>
+              <li><a href="#learn">Programming</a></li>
+              <li><a href="#learn">Networking</a></li>
+              <li><a href="#learn">UI/UX Designer</a></li>
             </ul>
           </div>
           <div class="footer-col">
@@ -416,7 +493,7 @@
               <li><a href="#detail">Home</a></li>
               <li><a href="#about">Profile</a></li>
               <li><a href="#gallery">Gallery</a></li>
-              <li><a href="#">Activities</a></li>
+              <li><a href="#aktifitas">Activities</a></li>
               <li><a href="#contact">Contacts</a></li>
             </ul>
           </div>

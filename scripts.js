@@ -30,10 +30,11 @@ humberger.addEventListener("click", () => {
   menuList.classList.toggle("hidden");
 });
 
+// TYPING TEXT
 var typed = new Typed(".typing-text", {
-  strings: ["Network Engineer", "Web Developer", "Technology"],
-  loop: true,
+  strings: ["Web Developer", "Networking", "UI/UX Designer"],
   typeSpeed: 50,
-  backSpeed: 25,
-  backDelay: 500,
+  backSpeed: 50,
+  backDelay: 1000,
+  loop: true,
 });
