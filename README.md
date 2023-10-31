@@ -1,6 +1,7 @@
 # WEBSITE PROFIL PRIBADI
 
-<img width="947" alt="webport" src="https://github.com/daniharmade/uts-pweb/assets/128836963/d66340af-7da6-499c-9e96-caf855f8b41a">
+<img width="946" alt="home" src="https://github.com/daniharmade/uts-pweb/assets/128836963/fa3b8869-2625-48df-94c7-4b780151e3b8">
+
 
 Untuk memenuhi tugas project UTS Matakuliah Pemrograman Web
 
