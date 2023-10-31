@@ -450,6 +450,7 @@
         </p>
 
         <div class="form">
+        <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
           <div class="nama">
             <label for="name">Nama</label><br />
             <input type="text" name="name" id="name" /><br />
@@ -525,3 +526,20 @@
     <script src="scripts.js"></script>
   </body>
 </html>
+
+<?php
+//Koneksi ke database
+$conn = mysqli_connect('localhost', 'root', '', 'contactuts') or die('connection failed');
+
+if (isset($_POST['submit'])) {
+  
+    $name = mysqli_real_escape_string($conn, $_POST['name']);
+    $email = mysqli_real_escape_string($conn, $_POST['email']);
+    $komentar = mysqli_real_escape_string($conn, $_POST['komentar']);
+
+    //Mengirimkan ke database
+    $insert = mysqli_query($conn, "INSERT INTO `coment`(name, email, komentar) VALUES('$name','$email','$komentar')") or die('query failed');
+}
+?>
+
+<!-- PHP CONTACT END -->
